@@ -16,8 +16,8 @@ function M.get()
     G.TelescopeSelectionCaret = { fg = C.yellow.bright, bg = C.bg, bold = true }
     G.TelescopePreviewTitle = { fg = C.white0, bg = C.bg, bold = true }
     G.TelescopeResultsTitle = { fg = C.white0, bg = C.bg, bold = true }
-    G.TelescopePromptTitle = { fg = C.white0, bg = C.bg, bold = true }
-    G.TelescopeTitle = { fg = C.white0, bg = C.bg, bold = true }
+    G.TelescopePromptTitle = { fg = C.none, bg = C.bg, bold = true }
+    G.TelescopeTitle = { fg = C.none, bg = C.bg, bold = true }
     G.TelescopeBorder = { fg = C.white0, bg = C.bg }
     G.TelescopePromptBorder = { fg = C.white0, bg = C.bg }
     G.TelescopeResultsBorder = { fg = C.white0, bg = C.bg }
