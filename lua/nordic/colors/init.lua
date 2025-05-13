@@ -29,11 +29,11 @@ function C.build_palette()
     -- Some of the format is from @folke/tokyonight.nvim.
 
     -- Backgrounds
-    C.bg = (options.transparent.bg and C.none) or ((options.swap_backgrounds and C.black1) or C.gray0)
-    C.bg_dark = (options.transparent.bg and C.none) or C.black0
-    C.bg_sidebar = (options.transparent.bg and C.none) or C.bg
+    C.bg = C.none --(options.transparent.bg and C.none) or ((options.swap_backgrounds and C.black1) or C.gray0)
+    C.bg_dark = C.none --(options.transparent.bg and C.none) or C.black0
+    C.bg_sidebar = C.none --(options.transparent.bg and C.none) or C.bg
     C.bg_statusline = C.none
-    C.bg_fold = C.gray2
+    C.bg_fold = C.none --C.gray2
 
     -- Cursorline Background
     if options.cursorline.theme == 'light' then
