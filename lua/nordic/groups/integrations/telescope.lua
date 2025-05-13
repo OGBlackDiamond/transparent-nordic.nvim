@@ -40,7 +40,7 @@ function M.get()
         G.TelescopePromptTitle = { bg = C.orange.base, fg = C.black0, bold = true }
         G.TelescopeTitle = { bg = C.orange.base, fg = C.black0, bold = true }
         G.TelescopeBorder = { fg = C.black0, bg = C.black0 }
-        G.TelescopePromptBorder = { bg = C.bg_float, fg = C.none}
+        G.TelescopePromptBorder = { bg = C.none, fg = C.none}
         G.TelescopeResultsBorder = { bg = C.bg_float, fg = C.black0 }
         G.TelescopePreviewBorder = { bg = C.bg_float, fg = C.black0 }
         G.TelescopeMultiIcon = { fg = C.yellow.bright, bg = C.bg_float, bold = true }
